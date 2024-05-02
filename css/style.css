@@ -1,0 +1,889 @@
+/* SECTION ONE */
+*{
+    padding: 0;
+    margin: 0;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.sectionOne{
+  width: 100vw;
+  height: 100vh;
+  /* background-color: aqua; */
+  background-image: url(/Images/UbunifupageoneImage.jpg);
+  background-size: cover;
+  background-position: top;
+  
+}
+.sectionOne .opacity{
+   width: 100vw;
+  height: 100vh;
+  position: absolute;
+  background-color: black;
+  opacity: .5; 
+}
+
+
+.sectionOne .navbar{
+  display: flex;
+  justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+.navbar .logo{
+  background-image: url(/Images/ubunifulogoresized2.png);
+  height: 54px;
+  width: 150px;
+  margin-left: -50%;
+  margin-right: 145px;
+  
+}
+
+.sectionOne .links{
+  display: flex;
+  flex-direction: row;
+  width: 80%;
+ margin-right: -800px ;
+ 
+}
+
+.about{
+  display: flex;
+  flex-direction: column;
+  height: max-content;
+  width: max-content;
+  position: relative;
+}
+
+.hide{
+  width: 200px;
+  height: 200px;
+  padding: 10px;
+  background-color: black;
+  opacity: 0.6;
+  margin-top: 20px;
+  color: #fff;
+  position: absolute;
+  display: none;
+}
+
+.about:hover .hide{
+  display: block;
+}
+.sectionOne a{
+   margin-left: 5%; 
+   display: flex;
+   flex-direction: row;
+  justify-content: space-between;
+  text-decoration: none;
+  color: #cfd3d3;
+  font-size: 10px;
+  font-weight: 300;
+  
+}
+
+.links .fa-sharp{
+  color: white;
+  margin-left: 55px;
+  margin-bottom: 20px;
+}
+
+.apply{
+  display: flex;
+  justify-content: space-between;
+  margin-left: 100px;
+}
+
+.apply a{
+  font-size: 10px;
+    background-color: white;
+    color: black;
+    padding: 8px 25px;
+    border-radius: 15px;
+    text-decoration: none;
+    width: 100%;
+    height: 20%;
+
+}
+
+.apply .fa-circle-play{
+  margin-right: 200px;
+  margin-left:  -20px; 
+  margin-top: 13px ;
+}
+
+
+.sectionOne .banner{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+    align-items: center;
+    margin: 10% 25%;
+    /* background-color: aqua; */
+    width: 40%;
+    line-height: 70px;
+    height: 50%;
+    position: relative;
+   
+}
+.sectionOne h1{
+  font-size: 80px;
+  text-align: center;
+  color: #ffffff;
+}
+
+.sectionOne p{
+ color: #ffffff; 
+ font-size: 16px;
+ width: 150%;
+ margin-left: 70%;
+}
+
+.banner a{
+  background-color: crimson;
+  color: white;
+  /* padding: -30px 10px;  */
+  border-radius: 25px;
+  text-decoration: none;
+  font-size: 12px;
+   margin-bottom: 10%;
+  /* margin-top: 20%; */
+  width: 40%; 
+  height: 40px;  
+  display: flex;
+  text-align: center;
+  align-items: center;
+  
+
+}
+
+.banner .fa-circle-arrow-down{
+  color: #337ab7;
+  height: 50px;
+  width: 50px;
+  /* background-color: bisque; */
+}
+
+
+/* SECTION TWO */
+.sectionTwo{
+  width: 100vw;
+  height: 100vh;
+  /* background-color: aqua; */
+  display: flex;
+}
+
+.karibu{
+  height: 100%;
+  width: 40%;
+  /* background-color: purple;  */
+  margin: 0 40px;
+}
+
+.karibu h1{
+  color: red;
+  font-size: 10px;
+ 
+}
+
+.karibu h2{
+  color: black;
+  font-size: 30px;
+  width: 63%;
+}
+
+.karibu p{
+  color: grey;
+  font-size: 15px;
+  line-height: 20px;
+  margin-bottom: 30px;
+  width: 70%;
+}
+
+.karibu a{
+  font-size: 18px;
+  background-color: #337ab7;
+  color: white;
+  padding: 15px 35px;
+  border-radius: 30px;
+  text-decoration: none;
+  font-size: 13px;
+}
+
+.partTwo{
+  width: 50%;
+  height: 90%;
+  /* background-color: yellow; */
+  display: flex;
+  margin-top: -5%;
+}
+
+.partTwo .descriptionOne{
+width: 30%;
+height: 100%;
+/* background-color: springgreen; */
+}
+
+.partTwo .descriptionTwo{
+width: 30%;
+height: 100%;
+/* background-color: blue; */
+margin-left: 15%;
+margin-top: 4%;
+
+}
+
+.description{
+  width: 120%;
+  height: 50%;
+  border-radius: 10px;
+  font-size: 10px;
+  margin-top: 44%;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  /* margin-bottom: 20%; */
+}
+
+.description p{
+color: white;
+}
+
+.graduate{
+  background-color: crimson;
+}
+.learn{
+  background-color: blue;
+  margin-top: 10%;
+}
+.project{
+  background-color: turquoise;
+  
+}
+.peer{
+  background-color: #f6ad01;
+  margin-top: 10%;
+}
+
+
+
+/* SECTION THREE */
+.sectionThree{
+  width: 100vw;
+  height: 100vh;
+  /* background-color: red; */
+  display: flex;
+}
+
+.sectionThree .video{
+  width: 50vw;
+  height: 100vh;
+  background-color: aqua;
+  background-image: url(/Images/ubunifuvideoImage.jpg);
+  background-size: cover;
+}
+
+.sectionThree .pagedescription{
+  width: 50vw;
+  height: 100vh;
+  /* background-color: purple; */
+  margin-top: 40%;
+}
+  
+  .spectacles{
+    width: 30%;
+    height: 70%;
+  background-image: url(/Images/spectaclesImage.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: top-right;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+  margin-left: 20%;
+}
+.pagedescription h1{
+  color: aqua;
+  font-size: 40px; 
+  width: 70%;
+  text-align: left;
+}
+
+.pagedescription p{
+  font-size: 13px;
+  text-align: left;
+  width: 75%;
+  margin-top: 4%;
+  line-height: 20px;
+}
+.pagedescription a{
+  font-size: 10px;
+  background-color: crimson;
+  color: white;
+  padding: 8px 9px 10px 9px;
+  border-radius: 20px ;
+  text-decoration: none;
+  margin-right: 85%;
+  margin-top: 200%;
+  margin-bottom: -20%;
+}
+
+
+/* SECTION FOUR */
+.sectionFour{
+  width: 100vw;
+  height: 100vh;
+  /* background-color: green; */
+}
+
+.sectionFour h1{
+  color: red;
+  font-size: 10px;
+  margin-left: 3%;
+}
+
+.sectionFour h2{
+  color: grey;
+  font-size: 50px;
+  margin-left: 3%;
+}
+
+.sectionFour .image{
+  width: 400px;
+  height: 200px;
+  /* background-color: yellow; */
+  border-radius: 20px 20px 0 0;
+  background-size: cover;
+    position: relative;
+    justify-content: space-between;
+}
+.opc{
+  background-color: red;
+  opacity: 0.6;
+  width: 100%;
+  height: 100%;
+  border-radius: 20px 20px 0 0;
+
+  display: none;
+  transition: 0.6s ease-in-out;
+}
+.sectionFour .image:hover .opc{
+  display: block;
+}
+
+.programsOne{
+  display: flex;
+  flex-direction: row;
+
+}
+
+.programsOne .opacity{
+  height: 100%;
+  width: 100%;
+  display: none;
+  background-color: red;
+  opacity: .6;
+}
+
+.programsOne .opacity :hover {
+  opacity: .6;
+  color: red;
+  height: 100%;
+  width: 100%;
+  display: block;
+}
+
+ .software .image{
+  background-image: url(/Images/softwaredevelopmentImage.jpg);
+ margin-left: 12%; 
+}
+
+ .machineLearning .image{
+  background-image: url(/Images/machinelearningImage.jpg);
+  margin-left: 18%;  
+}
+
+ .dataScience .image{
+  background-image: url(/Images/DatascienceImage.jpg);
+  margin-left: 25%;  
+}
+
+ .programsTwo{
+  display: flex;
+  flex-direction: row;
+  margin-top: 23%;
+  margin-left: -88%;
+ }
+
+ .blockchain .image{
+  background-image: url(/Images/blockchainImage.jpg);
+ }
+
+ .robotics .image{
+  background-image: url(/Images/roboticsImage.jpg);
+  margin-left: 5%;  
+}
+
+ .startupSchool .image{
+  background-image: url(/Images/startupschoolImage.jpg);
+  margin-left: 10%; 
+}
+
+.sectionFour a{
+  margin-left: 20%;
+  text-decoration: none;
+  color: #337ab7;
+  font-size: 15px;
+  display: flex;
+  text-align: center;
+  align-items: center;
+}
+
+.sectionFour p{
+  margin-left: 20%;
+  font-size: 13px;
+}
+
+
+/* SECTION FIVE */
+.sectionFive{
+ width: 100vw;
+ height: 100vh;
+ margin-top: 5%;
+ /* background-color:crimson; */
+ display: flex; 
+}
+
+.sectionFive .image{
+  height: 100%;
+  width: 50%;
+  /* background-color: darkgray; */
+  background-image: url(/Images/discussionImage.jpg);
+background-size: cover;
+}
+.sectionFive .pagedescription{
+  height: 100%;
+  width: 50%;
+  background-color: #007BFF;
+}
+
+.sectionFive h1{
+  display: flex;
+  align-items: left;
+  justify-content: left;
+  text-align: left;
+  color: white;
+  margin-top: 10%;
+  margin-left: 10%;
+  
+}
+
+.pageFive{
+  display: flex;
+  margin-left: 10%;
+  
+}
+
+.pageFive h1{
+  color: black;
+  font-size: 12px;
+  margin-left: -1%;
+}
+
+.pageFive .partOne{
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  margin-top: 8%;
+}
+.pageFive .partTwo{
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  margin-top: 8%;
+}
+
+.pageFive p{
+  color: white;
+  font-size: 12px;
+
+}
+
+.second{
+  margin-top: 10%;
+}
+
+.fourth{
+  margin-top: 10%;
+}
+
+/* SECTION SIX */
+
+.sectionSix{
+  width: 100vw;
+  height: 100vh;
+  /* background-color: aqua; */
+}
+
+.sectionSix .headerSection{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  margin-top: 10%;
+}
+.sectionSix h1{
+color: red;
+font-size: 12px;
+}
+.sectionSix h2{
+font-size: 50px;
+color: #007BFF;
+}
+
+
+.videos{
+  width: 100%;
+  height: 50%;
+  /* background-color: #f6ad01; */
+  display: flex;
+  justify-content: space-around;
+  margin-top: 10%;
+}
+
+ .one{
+width: 25%;
+height: 100%;
+  background-color: yellowgreen;
+
+}
+
+ .two{
+  width: 25%;
+height: 100%;
+  background-color: gray;
+  margin-right: 10%;
+ 
+}
+
+.videos h1{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.videos p{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* SECTION SEVEN */
+
+.sectionSeven{
+  width: 100vw;
+  height: 90vh;
+  /* background-color: aqua; */
+}
+
+.sectionSeven .image{
+  width: 100%;
+  height: 79%;
+ background-image: url(/Images/sectionsevebUbunifuImage.jpg);
+background-position: cover;
+}
+
+.sectionSeven .opacity{
+    width: 100%;
+  height: 550px;
+  position: absolute;
+  background-color: black;
+  opacity: .5; 
+}
+
+.sectionSeven .imagedescription{
+  width: 33%;
+  height: 30%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  position: relative;
+  font-size: 25px;
+  margin-left: 35%;
+  color: white;
+  
+}
+
+.sectionSeven .fa-regular{
+  font-size: 80px;
+  margin-top: 90%;
+ 
+}
+
+.sectionSeven p{
+  font-size: 25px;
+  margin-top:  10%; 
+}
+
+/* SECTION EIGHT */
+
+.sectionEight{
+  width: 100vw;
+  height: 100vh;
+  /* background-color: aqua; */
+}
+
+.sectionEight .image{
+  width: 100%;
+  height: 60%;
+  background-image: url(/Images//sectionEightUbunifuImage.jpg);
+background-position: cover;
+}
+
+.sectionEight .pagedescription{
+  width: 100%;
+  height: 75%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  /* margin-top: 50px;
+  margin-bottom: -50px; */
+  /* background-color: aqua; */
+ 
+}
+
+.sectionEight .discovering{
+  width: 25%;
+  height: 65%;
+ background-color: white;
+ margin-top: 10%;
+}
+
+.sectionEight .ubunifusModel{
+width: 25%;
+  height: 65%;
+   background-color: white;
+   margin-left: 2%;
+  margin-right: 5%;
+  margin-top: 10%;
+}
+
+.sectionEight .learning{
+width: 25%;
+  height: 65%;
+  background-color: white;
+  margin-top: 10%;
+  
+}
+.sectionEight h1{
+  display: flex;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  margin-left: 10%;
+  color: red;
+}
+
+.sectionEight p{
+  display: flex;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  margin-left: 5%;
+}
+
+.enrollToday{
+  width: 100%;
+  height: 20%;
+  background-color: crimson;
+  display: flex;
+}
+
+.enrollToday h1{
+  color: white;
+  font-size: 18px;
+  margin-left: 35%;
+}
+
+.enrollToday a{
+  height: 5%;
+  width: 10%;
+ background-color: white;
+    color: black;
+    padding: 15px 5px; 
+    border-radius: 15px;
+    font-size: 12px;
+    text-decoration: none;
+    margin-top: 3%;
+    margin-left: 2%;
+}
+
+/* SECTION NINE */
+
+.sectionNine{
+  width: 100vw;
+  height: 100vh;
+  /* background-color: aqua; */
+}
+
+.news{
+  width: 100%;
+  height: 20%;
+  /* background-color: purple; */
+}
+
+.news h1{
+  font-size: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+.sectionNine .media{
+  margin-top: 5%;
+  width: 100%;
+  height: 50%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  
+}
+
+.sectionNine .ktn{
+  width: 150px;
+  height: 80px;
+   background-image: url(/Images/ktnlogo\ 2.jpg); 
+background-size: cover;
+  /* background-color: blue; */
+  margin-right: 2%;
+}
+.sectionNine .metropol{
+  width: 170px;
+  height: 70px;
+   background-image: url(/Images/metrologo.png); 
+  background-size: cover;
+  /* background-color: green; */
+  margin-right: 2%;
+}
+.sectionNine .switchtv{
+  width: 100px;
+  height: 90px;
+   background-image: url(/Images/switchlogo.jpg); 
+  background-size: cover;
+  /* background-color: yellow;margin-right: 2%; */
+}
+.sectionNine .twofivefour{
+  width: 120px;
+  height: 90px;
+  background-image: url(/Images/y254logo.png); 
+  background-size: cover;
+  /* background-color: violet; */
+}
+.sectionNine .vybes{
+  width: 100px;
+  height: 100px;
+   background-image: url(/Images/vybzlogo.png); 
+  background-size: cover;
+  margin-left: 2%;
+}
+
+.end{
+  margin-top: 10%;
+  width: 100%;
+  height: 50%;
+  background-color: #1c1c1c;
+  color: white;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  text-align: left;
+}
+
+.end .school{
+height: 100%;
+width: 20%;
+margin-top: 8%;
+margin-left: -8%;
+}
+
+.school .logo{
+  width: 150px;
+  height: 58px;
+  background-image: url(/Images/ubunifulogoresized2.png);
+background-repeat: no-repeat;
+
+}
+
+.school p{
+  font-size: 12px;
+  color: #4c4c4c;
+}
+
+.school .fa-brands{
+  /* display: flex;
+  flex-direction: row; */
+  justify-content: space-between;
+  align-items: center;
+margin-left: 2%
+}
+
+.information{
+  width: 20%;
+  height: 100%;
+  margin-top: 8%;
+  line-height: 155%;
+}
+
+.end h1{
+  font-size: 14px;
+ 
+}
+
+.end p{
+  font-size: 12px;
+  color: #4c4c4c;
+}
+
+.contact{
+  width: 20%;
+  height: 100%;
+  margin-top: 8%;
+  line-height: 155%;
+}
+
+.ubunifuemail{
+  color: red;
+}
+
+.contact a{
+  color: white;
+}
+
+.instPortfolio{
+   width: 20%;
+  height: 100%;
+  margin-top: 8%;
+}
+
+/* SECTION TEN */
+
+.sectionTen{
+  width: 100vw;
+  height: 20vh;
+  background-color: #141414;
+  margin-top: -10%;
+  color: white;
+  font-size: 12px;
+}
